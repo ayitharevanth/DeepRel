@@ -15,7 +15,7 @@ Facial features can vary significantly between individuals, even within families
 The amount of training data available for familial relationships might be limited.
 Technologies Used:
 
-Deep learning models (ResNet50, VGG16)
+Deep learning models (ResNet50)
 Transfer learning (potentially)
 Data augmentation (potentially)
 Implementation Highlights:
@@ -23,4 +23,4 @@ Implementation Highlights:
 The project utilizes the "Kinface-W" dataset for comparing two images and predicting potential relations based on their features.
 Two approaches were explored:
 Pre-trained ResNet50 model: Achieved an accuracy of 80.86% with a corresponding error rate of 19.14%.
-VGG16 model: Achieved a training accuracy of 71.02% and testing accuracy of 69.89%.
+
